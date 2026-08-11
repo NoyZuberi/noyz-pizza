@@ -4,7 +4,7 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>הפיצה של נויז' — בצק פיצה קפוא בסגנון נאפוליטני</title>
-<meta name="description" content="בצק פיצה קפוא, תפיחה של 48 שעות בסגנון נאפוליטני. נמכר בארגזים של 5 כדורים לפחות." />
+<meta name="description" content="בצק פיצה קפוא, פיצה בסגנון נאפוליטני. מגיע קפוא באריזה של 5." />
 <style>
 
   /* ---------- fonts (Hebrew subsets) ---------- */
@@ -622,7 +622,7 @@
           <p class="sub measure">כדורי בצק בסגנון נאפוליטני, שתפחו לאט בקירור למשך 24 שעות ונקפאו בדיוק לפני זמן ההתפחה. להפשיר 6 שעות לפני הכנה.</p>
           <div class="cta-row">
             <a class="btn" href="#order">אל הבצק ↓</a>
-            <span class="meta"><strong>מינימום 5 כדורים</strong> · 45 ₪</span>
+            <span class="meta"><strong>אריזה של 5 כדורים</strong> · 45 ₪</span>
           </div>
         </div>
 
@@ -690,24 +690,24 @@
             </svg>
             הזמנה
           </span>
-          <h2>קפוא בארגזים של חמישה.</h2>
+          <h2>מגיע קפוא באריזות של 5</h2>
         </div>
 
         <div class="order-card">
           <div class="stepper-wrap">
-            <span class="label">כדורי בצק</span>
+            <span class="label">אריזות (5 כדורים באריזה)</span>
             <div class="stepper">
-              <button type="button" id="decBtn" aria-label="הפחתת כדור בצק">−</button>
-              <span class="count" id="qtyDisplay">5</span>
-              <button type="button" id="incBtn" aria-label="הוספת כדור בצק">+</button>
+              <button type="button" id="decBtn" aria-label="הפחתת אריזה">−</button>
+              <span class="count" id="qtyDisplay">1</span>
+              <button type="button" id="incBtn" aria-label="הוספת אריזה">+</button>
             </div>
-            <p class="min-note">אנחנו קופאים רק ארגזים שלמים של 5 — זה הארגז הכי קטן ששומר על כל כדור אטום וקפוא באופן אחיד.</p>
+            <p class="min-note">אנחנו מקפיאים אריזות של 5 כדורים — זו האריזה הכי קטנה ששומרת על כל כדור אטום וקפוא באופן אחיד.</p>
           </div>
 
           <div class="price-block">
-            <div class="price-row"><span>מחיר לכדור</span><span>45 ₪</span></div>
-            <div class="price-row"><span>כמות</span><span id="qtyEcho">5</span></div>
-            <div class="price-row total"><span>סה״כ משוער</span><b id="totalEcho">80 ₪</b></div>
+            <div class="price-row"><span>מחיר לאריזה</span><span>45 ₪</span></div>
+            <div class="price-row"><span>כמות אריזות</span><span id="qtyEcho">1</span></div>
+            <div class="price-row total"><span>סה״כ משוער</span><b id="totalEcho">45 ₪</b></div>
           </div>
         </div>
 
@@ -783,8 +783,8 @@
 
   <script>
     (function () {
-      var qty = 5;
-      var min = 5;
+      var qty = 1;
+      var min = 1;
       var price = 45;
       var qtyDisplay = document.getElementById('qtyDisplay');
       var qtyEcho = document.getElementById('qtyEcho');
