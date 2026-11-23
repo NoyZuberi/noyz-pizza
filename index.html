@@ -61,6 +61,8 @@
     --ink-dim: #7C6A4E;
     --terracotta: #BE5A2B;
     --terracotta-ink: #FAF3E3;
+    --terracotta-deep: #8C4420;
+    --terracotta-deep-ink: #FAF3E3;
     --olive: #6E7A46;
     --lavender: #8A7BA6;
     --line: rgba(59, 42, 30, 0.16);
@@ -98,6 +100,8 @@
       --ink-dim: #C6B392;
       --terracotta: #E17B44;
       --terracotta-ink: #2B2016;
+      --terracotta-deep: #A85226;
+      --terracotta-deep-ink: #F3E8D4;
       --olive: #9AAA6C;
       --lavender: #B3A2D6;
       --line: rgba(243, 232, 212, 0.14);
@@ -112,6 +116,8 @@
     --ink-dim: #C6B392;
     --terracotta: #E17B44;
     --terracotta-ink: #2B2016;
+    --terracotta-deep: #A85226;
+    --terracotta-deep-ink: #F3E8D4;
     --olive: #9AAA6C;
     --lavender: #B3A2D6;
     --line: rgba(243, 232, 212, 0.14);
@@ -307,6 +313,10 @@
     background: transparent;
     color: var(--ink);
     border: 1px solid var(--line);
+  }
+  .btn.deep {
+    background: var(--terracotta-deep);
+    color: var(--terracotta-deep-ink);
   }
   .btn.icon-only { padding: 0.9em; }
   .hero .meta {
@@ -641,7 +651,7 @@
           <h1>פיצה נאפוליטנית על בסיס <a href="#poolish" class="poolish-link">פוליש**</a></h1>
           <p class="sub measure">כדורי בצק בסגנון נאפוליטני, שתפחו לאט בקירור למשך 24 שעות והוקפאו בדיוק לפני זמן ההתפחה. <strong>יש להפשיר 6 שעות לפני הכנה.</strong></p>
           <div class="cta-row">
-            <a class="btn" href="#order">על הבצק ↓</a>
+            <a class="btn deep" href="#order">על הבצק ↓</a>
             <a class="btn" href="https://wa.me/972509060456" target="_blank" rel="noopener noreferrer">
               <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="16" height="16">
                 <path d="M12 2a10 10 0 0 0-8.5 15.2L2 22l4.9-1.5A10 10 0 1 0 12 2Zm0 1.8a8.2 8.2 0 0 1 6.9 12.6l-.3.5.6 2.1-2.2-.6-.5.3A8.2 8.2 0 1 1 12 3.8Zm-3.3 4.1c-.2 0-.5 0-.6.3-.2.3-.8.8-.8 1.9s.8 2.2 1 2.4c.1.2 1.6 2.6 4 3.6 2 .8 2.4.6 2.8.6.5 0 1.5-.6 1.7-1.2.2-.6.2-1 .1-1.2-.1-.1-.3-.2-.5-.3l-1.5-.7c-.2-.1-.4-.1-.5.1l-.6.8c-.1.1-.3.2-.4.1-.3-.1-1.1-.4-2.1-1.3-.8-.7-1.3-1.5-1.4-1.8-.1-.2 0-.4.1-.5l.4-.5c.1-.2.1-.3.2-.5 0-.2 0-.4 0-.5l-.7-1.6c-.1-.3-.3-.4-.5-.4h-.5Z"/>
